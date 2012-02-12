@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		788ACBF514E887FF00E0A337 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788ACBF414E887FF00E0A337 /* UIKit.framework */; };
+		788ACBF714E887FF00E0A337 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788ACBF614E887FF00E0A337 /* Foundation.framework */; };
+		788ACBF914E887FF00E0A337 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788ACBF814E887FF00E0A337 /* CoreGraphics.framework */; };
+		788ACBFF14E887FF00E0A337 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 788ACBFD14E887FF00E0A337 /* InfoPlist.strings */; };
+		788ACC0114E887FF00E0A337 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 788ACC0014E887FF00E0A337 /* main.m */; };
+		788ACC0514E887FF00E0A337 /* naliteratureAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 788ACC0414E887FF00E0A337 /* naliteratureAppDelegate.m */; };
+		788ACC0814E887FF00E0A337 /* naliteratureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 788ACC0714E887FF00E0A337 /* naliteratureViewController.m */; };
+		788ACC0B14E887FF00E0A337 /* naliteratureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 788ACC0914E887FF00E0A337 /* naliteratureViewController.xib */; };
+		788ACC1314E887FF00E0A337 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788ACC1214E887FF00E0A337 /* SenTestingKit.framework */; };
+		788ACC1414E887FF00E0A337 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788ACBF414E887FF00E0A337 /* UIKit.framework */; };
+		788ACC1514E887FF00E0A337 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788ACBF614E887FF00E0A337 /* Foundation.framework */; };
+		788ACC1D14E887FF00E0A337 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 788ACC1B14E887FF00E0A337 /* InfoPlist.strings */; };
+		788ACC2014E887FF00E0A337 /* NA_LiteratureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 788ACC1F14E887FF00E0A337 /* NA_LiteratureTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		788ACC1614E887FF00E0A337 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 788ACBE714E887FE00E0A337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 788ACBEF14E887FF00E0A337;
+			remoteInfo = "NA Literature";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		788ACBF014E887FF00E0A337 /* NA Literature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NA Literature.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		788ACBF414E887FF00E0A337 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		788ACBF614E887FF00E0A337 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		788ACBF814E887FF00E0A337 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		788ACBFC14E887FF00E0A337 /* NA Literature-Info.plist */ = {isa = PBXFileReference; path = "NA Literature-Info.plist"; sourceTree = "<group>"; };
+		788ACBFE14E887FF00E0A337 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		788ACC0014E887FF00E0A337 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		788ACC0214E887FF00E0A337 /* NA Literature-Prefix.pch */ = {isa = PBXFileReference; path = "NA Literature-Prefix.pch"; sourceTree = "<group>"; };
+		788ACC0314E887FF00E0A337 /* naliteratureAppDelegate.h */ = {isa = PBXFileReference; path = naliteratureAppDelegate.h; sourceTree = "<group>"; };
+		788ACC0414E887FF00E0A337 /* naliteratureAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = naliteratureAppDelegate.m; sourceTree = "<group>"; };
+		788ACC0614E887FF00E0A337 /* naliteratureViewController.h */ = {isa = PBXFileReference; path = naliteratureViewController.h; sourceTree = "<group>"; };
+		788ACC0714E887FF00E0A337 /* naliteratureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = naliteratureViewController.m; sourceTree = "<group>"; };
+		788ACC0A14E887FF00E0A337 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/naliteratureViewController.xib; sourceTree = "<group>"; };
+		788ACC1114E887FF00E0A337 /* NA LiteratureTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NA LiteratureTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		788ACC1214E887FF00E0A337 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		788ACC1A14E887FF00E0A337 /* NA LiteratureTests-Info.plist */ = {isa = PBXFileReference; path = "NA LiteratureTests-Info.plist"; sourceTree = "<group>"; };
+		788ACC1C14E887FF00E0A337 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		788ACC1E14E887FF00E0A337 /* NA_LiteratureTests.h */ = {isa = PBXFileReference; path = NA_LiteratureTests.h; sourceTree = "<group>"; };
+		788ACC1F14E887FF00E0A337 /* NA_LiteratureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NA_LiteratureTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		788ACBED14E887FF00E0A337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788ACBF514E887FF00E0A337 /* UIKit.framework in Frameworks */,
+				788ACBF714E887FF00E0A337 /* Foundation.framework in Frameworks */,
+				788ACBF914E887FF00E0A337 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788ACC0D14E887FF00E0A337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788ACC1314E887FF00E0A337 /* SenTestingKit.framework in Frameworks */,
+				788ACC1414E887FF00E0A337 /* UIKit.framework in Frameworks */,
+				788ACC1514E887FF00E0A337 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		788ACBE514E887FE00E0A337 = {
+			isa = PBXGroup;
+			children = (
+				788ACBFA14E887FF00E0A337 /* NA Literature */,
+				788ACC1814E887FF00E0A337 /* NA LiteratureTests */,
+				788ACBF314E887FF00E0A337 /* Frameworks */,
+				788ACBF114E887FF00E0A337 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		788ACBF114E887FF00E0A337 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				788ACBF014E887FF00E0A337 /* NA Literature.app */,
+				788ACC1114E887FF00E0A337 /* NA LiteratureTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		788ACBF314E887FF00E0A337 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				788ACBF414E887FF00E0A337 /* UIKit.framework */,
+				788ACBF614E887FF00E0A337 /* Foundation.framework */,
+				788ACBF814E887FF00E0A337 /* CoreGraphics.framework */,
+				788ACC1214E887FF00E0A337 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		788ACBFA14E887FF00E0A337 /* NA Literature */ = {
+			isa = PBXGroup;
+			children = (
+				788ACC0314E887FF00E0A337 /* naliteratureAppDelegate.h */,
+				788ACC0414E887FF00E0A337 /* naliteratureAppDelegate.m */,
+				788ACC0614E887FF00E0A337 /* naliteratureViewController.h */,
+				788ACC0714E887FF00E0A337 /* naliteratureViewController.m */,
+				788ACC0914E887FF00E0A337 /* naliteratureViewController.xib */,
+				788ACBFB14E887FF00E0A337 /* Supporting Files */,
+			);
+			path = "NA Literature";
+			sourceTree = "<group>";
+		};
+		788ACBFB14E887FF00E0A337 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				788ACBFC14E887FF00E0A337 /* NA Literature-Info.plist */,
+				788ACBFD14E887FF00E0A337 /* InfoPlist.strings */,
+				788ACC0014E887FF00E0A337 /* main.m */,
+				788ACC0214E887FF00E0A337 /* NA Literature-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		788ACC1814E887FF00E0A337 /* NA LiteratureTests */ = {
+			isa = PBXGroup;
+			children = (
+				788ACC1E14E887FF00E0A337 /* NA_LiteratureTests.h */,
+				788ACC1F14E887FF00E0A337 /* NA_LiteratureTests.m */,
+				788ACC1914E887FF00E0A337 /* Supporting Files */,
+			);
+			path = "NA LiteratureTests";
+			sourceTree = "<group>";
+		};
+		788ACC1914E887FF00E0A337 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				788ACC1A14E887FF00E0A337 /* NA LiteratureTests-Info.plist */,
+				788ACC1B14E887FF00E0A337 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		788ACBEF14E887FF00E0A337 /* NA Literature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788ACC2314E887FF00E0A337 /* Build configuration list for PBXNativeTarget "NA Literature" */;
+			buildPhases = (
+				788ACBEC14E887FF00E0A337 /* Sources */,
+				788ACBED14E887FF00E0A337 /* Frameworks */,
+				788ACBEE14E887FF00E0A337 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NA Literature";
+			productName = "NA Literature";
+			productReference = 788ACBF014E887FF00E0A337 /* NA Literature.app */;
+			productType = "com.apple.product-type.application";
+		};
+		788ACC1014E887FF00E0A337 /* NA LiteratureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788ACC2614E887FF00E0A337 /* Build configuration list for PBXNativeTarget "NA LiteratureTests" */;
+			buildPhases = (
+				788ACC0C14E887FF00E0A337 /* Sources */,
+				788ACC0D14E887FF00E0A337 /* Frameworks */,
+				788ACC0E14E887FF00E0A337 /* Resources */,
+				788ACC0F14E887FF00E0A337 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				788ACC1714E887FF00E0A337 /* PBXTargetDependency */,
+			);
+			name = "NA LiteratureTests";
+			productName = "NA LiteratureTests";
+			productReference = 788ACC1114E887FF00E0A337 /* NA LiteratureTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		788ACBE714E887FE00E0A337 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 788ACBEA14E887FE00E0A337 /* Build configuration list for PBXProject "NA Literature" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 788ACBE514E887FE00E0A337;
+			productRefGroup = 788ACBF114E887FF00E0A337 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				788ACBEF14E887FF00E0A337 /* NA Literature */,
+				788ACC1014E887FF00E0A337 /* NA LiteratureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		788ACBEE14E887FF00E0A337 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788ACBFF14E887FF00E0A337 /* InfoPlist.strings in Resources */,
+				788ACC0B14E887FF00E0A337 /* naliteratureViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788ACC0E14E887FF00E0A337 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788ACC1D14E887FF00E0A337 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		788ACC0F14E887FF00E0A337 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		788ACBEC14E887FF00E0A337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788ACC0114E887FF00E0A337 /* main.m in Sources */,
+				788ACC0514E887FF00E0A337 /* naliteratureAppDelegate.m in Sources */,
+				788ACC0814E887FF00E0A337 /* naliteratureViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788ACC0C14E887FF00E0A337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788ACC2014E887FF00E0A337 /* NA_LiteratureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		788ACC1714E887FF00E0A337 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 788ACBEF14E887FF00E0A337 /* NA Literature */;
+			targetProxy = 788ACC1614E887FF00E0A337 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		788ACBFD14E887FF00E0A337 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788ACBFE14E887FF00E0A337 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		788ACC0914E887FF00E0A337 /* naliteratureViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788ACC0A14E887FF00E0A337 /* en */,
+			);
+			name = naliteratureViewController.xib;
+			sourceTree = "<group>";
+		};
+		788ACC1B14E887FF00E0A337 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788ACC1C14E887FF00E0A337 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		788ACC2114E887FF00E0A337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		788ACC2214E887FF00E0A337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		788ACC2414E887FF00E0A337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NA Literature/NA Literature-Prefix.pch";
+				INFOPLIST_FILE = "NA Literature/NA Literature-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		788ACC2514E887FF00E0A337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NA Literature/NA Literature-Prefix.pch";
+				INFOPLIST_FILE = "NA Literature/NA Literature-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		788ACC2714E887FF00E0A337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NA Literature.app/NA Literature";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NA Literature/NA Literature-Prefix.pch";
+				INFOPLIST_FILE = "NA LiteratureTests/NA LiteratureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		788ACC2814E887FF00E0A337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NA Literature.app/NA Literature";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NA Literature/NA Literature-Prefix.pch";
+				INFOPLIST_FILE = "NA LiteratureTests/NA LiteratureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		788ACBEA14E887FE00E0A337 /* Build configuration list for PBXProject "NA Literature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788ACC2114E887FF00E0A337 /* Debug */,
+				788ACC2214E887FF00E0A337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		788ACC2314E887FF00E0A337 /* Build configuration list for PBXNativeTarget "NA Literature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788ACC2414E887FF00E0A337 /* Debug */,
+				788ACC2514E887FF00E0A337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		788ACC2614E887FF00E0A337 /* Build configuration list for PBXNativeTarget "NA LiteratureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788ACC2714E887FF00E0A337 /* Debug */,
+				788ACC2814E887FF00E0A337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 788ACBE714E887FE00E0A337 /* Project object */;
+}
